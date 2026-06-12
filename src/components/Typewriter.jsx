@@ -4,7 +4,6 @@ const Typewriter = ({ texts, typingSpeed = 50, deletingSpeed = 30, pauseTime = 2
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
-  const [typing, setTyping] = useState(true);
 
   useEffect(() => {
     let timer;
@@ -16,8 +15,10 @@ const Typewriter = ({ texts, typingSpeed = 50, deletingSpeed = 30, pauseTime = 2
       timer = setTimeout(() => setIsDeleting(true), pauseTime);
     } else if (isDeleting && text === '') {
       // Move to the next string
-      setIsDeleting(false);
-      setLoopNum((prev) => prev + 1);
+      timer = setTimeout(() => {
+        setIsDeleting(false);
+        setLoopNum((prev) => prev + 1);
+      }, typingSpeed);
     } else {
       // Type or delete a letter
       timer = setTimeout(() => {

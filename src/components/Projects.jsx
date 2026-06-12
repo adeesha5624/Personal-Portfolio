@@ -12,7 +12,7 @@ const Projects = () => {
 
     
     {
-      title: 'Coffer (Main Project)',
+      title: 'Coffer',
       description: 'My first mobile application developed in Dart. Coffer aims to manage and track financial assets across devices.',
       techList: ['Dart', 'Mobile', 'Web'],
       github: 'https://github.com/adeesha5624/Coffer',

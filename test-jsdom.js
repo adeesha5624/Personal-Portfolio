@@ -23,5 +23,6 @@ setTimeout(() => {
   } else {
     console.log('App successfully rendered with length:', rootContent.length);
   }
+  // eslint-disable-next-line no-undef
   process.exit(0);
 }, 2000);
