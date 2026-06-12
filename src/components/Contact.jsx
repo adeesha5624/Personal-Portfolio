@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiLinkedin, FiMail, FiSend } from 'react-icons/fi';
+import { FiLinkedin, FiMail, FiSend, FiGithub } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 import './Contact.css';
 
@@ -45,6 +45,10 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/uvindu-adeesha-454815334" target="_blank" rel="noreferrer" className="contact-card glass">
             <div className="card-icon"><FiLinkedin /></div>
             <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/adeesha5624" target="_blank" rel="noreferrer" className="contact-card glass">
+            <div className="card-icon"><FiGithub /></div>
+            <span>GitHub</span>
           </a>
         </div>
         

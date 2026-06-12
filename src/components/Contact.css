@@ -1,6 +1,6 @@
 .contact-section {
   text-align: center;
-  max-width: 600px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -78,7 +78,7 @@
 
 .contact-cards {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 2.5rem;
@@ -87,7 +87,7 @@
 
 .contact-card {
   flex: 1;
-  min-width: 140px;
+  min-width: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
