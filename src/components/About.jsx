@@ -17,7 +17,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text glass">
             <p className="text-lg text-slate-300 mb-6 leading-relaxed">
-              I am Uvindu, a developer and final-year NDT student who enjoys building 
+              I am Uvindu, a developer and undergraduate student who enjoys building 
               robust digital solutions that run seamlessly on the internet and mobile devices. 
               My primary focus is on fullstack web and mobile application development.
             </p>
@@ -46,6 +46,7 @@ const About = () => {
             <ul className="skills-list mb-6">
               {devSkills.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
+          
 
             <p className="font-bold text-white">Design & Multimedia Tools:</p>
             <ul className="skills-list">
