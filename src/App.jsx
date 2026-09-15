@@ -5,13 +5,36 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
+// Combined view for single-page scrolling
+function FullScrollPortfolio() {
+  return (
+    <>
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+    </>
+  );
+}
+
 function App() {
   return (
     <div className="app-container">
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Hero />} />
+          {/* Default view: full scrollable portfolio */}
+          <Route path="/" element={<FullScrollPortfolio />} />
+
+          {/* Individual page routes */}
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

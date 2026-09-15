@@ -113,6 +113,10 @@ p {
   color: var(--color-text-muted);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Layout Utilities */
 .container {
   width: 100%;
@@ -174,6 +178,7 @@ p {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
 
 .animate-fade-up {
   opacity: 0;
