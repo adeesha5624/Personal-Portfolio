@@ -57,7 +57,15 @@ const Projects = () => {
       techList: ['React', 'Express','Node','PostgreSQL'],
       external:'https://github.com/adeesha5624/HUB-Airfreight.git',
       image: freightForwardingImg
-    }
+    },
+
+    {
+      title: 'NexGen Mobile POS & Repair Management System',
+      description: 'A full-stack retail point-of-sale and mobile repair management platform. Built to streamline inventory tracking, repair job status monitoring, and customer transactions with an intuitive, modern UI.',
+      techList: ['React', 'Node', 'PostgreSQL', 'Supabase', 'Vercel'],
+      external: 'https://github.com/adeesha5624/NextGen-Mobile.git',
+      image: posSystemImg
+  } 
   ];
 
   return (
