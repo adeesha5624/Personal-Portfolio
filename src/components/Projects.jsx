@@ -64,7 +64,8 @@ const Projects = () => {
       title: 'NexGen Mobile POS & Repair Management System',
       description: 'A full-stack retail point-of-sale and mobile repair management platform. Built to streamline inventory tracking, repair job status monitoring, and customer transactions with an intuitive, modern UI.',
       techList: ['React', 'Node', 'PostgreSQL', 'Supabase', 'Vercel'],
-      external: 'https://github.com/adeesha5624/NextGen-Mobile.git',
+      external: 'https://next-gen-mobile-frontend-tawny.vercel.app/',
+      github: 'https://github.com/adeesha5624/NextGen-Mobile.git',
       image: posSystemImg
   } 
   ];
