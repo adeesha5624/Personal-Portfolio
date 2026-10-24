@@ -5,6 +5,7 @@ import busTrackingImg from '../assets/bus_tracking_1.png';
 import complainSystemImg from '../assets/complain_system.png';
 import projectVideoImg from '../assets/project_video.png';
 import freightForwardingImg from '../assets/freight_forwarding.png';
+import posSystemImg from '../assets/nexgen_mobile.png';
 import './Projects.css';
 
 const Projects = () => {
